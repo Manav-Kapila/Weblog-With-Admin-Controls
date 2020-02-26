@@ -1,0 +1,74 @@
+body {
+    background-image: url(wallpaper.jpg);
+    height: 100%;
+    background-repeat:repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: darkgray;
+    margin: 0 !important;
+    background-size: auto !important;
+    overflow: hidden;
+    display: block;
+    /*
+    background-attachment: fixed;
+    */
+}
+
+
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+
+
+/*center aligning all post and create post buttons */
+
+.postButtons {
+    text-align: center;
+    margin-top: 180px;
+}
+
+
+/* adding background color to add post ans create
+    post buttons     */
+
+#all_post,
+#create_post {
+    background-color: #9cccfd;
+    font-weight: bold;
+    border-radius: 90px;
+}
+
+
+/* Style for the content field in the createPostModal */
+
+#createPost {
+    background-color: #f1f1f1;
+    height: auto;
+    border: none;
+    outline: none;
+    width: 98%;
+    padding: 10px;
+    display: block;
+    resize: none;
+}
+
+#create-post-modal-content {
+    padding: 10px;
+    width: 90%;
+}
+
+
+/* styling create post button */
+
+#createPOSTbutton {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(9, 165, 43);
+    margin-left: 50%;
+}
+
+
+/*align heading to center   */
+
+#create-post-modal-content h2 {
+    text-align: center;
+}

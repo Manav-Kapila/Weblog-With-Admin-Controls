@@ -1,0 +1,143 @@
+/*adding background to post header   */
+#postHeader{
+    background-color: #9e9e9ebf;
+}
+
+.blogTite {
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+
+.blogText {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* aligning the author name  */
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 1px;
+}
+
+.blogAuthor {
+    padding: 0px 0px 0px 10px;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    /* aligning the post  */
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.blogContent {
+    text-align: center;
+}
+
+#in_up {
+    height: 100%;
+    background-color: transparent;
+    padding: 20px;
+    text-align: right;
+}
+
+#blogBody {
+    margin: 0px;
+}
+
+
+/* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
+
+
+/* to add dotted borders while editing*/
+
+.redBorder1 {
+    border: 1px solid red;
+}
+
+.redBorder2 {
+    border: 1px solid red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* aligning the author name  */
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* styling the edit button */
+
+#editButton {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    float: right;
+}
+
+
+/* styling the Like button */
+
+#likeMe {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    width: 120px;
+}
+
+
+/* aligning like button , comment button and comment section
+   to the left    */
+
+#alignLeft {
+    text-align: left;
+    margin: 10px 40px;
+}
+
+
+/* styling comments section    */
+
+#commentBtn {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.comment #addcomment {
+    margin-left: 5%;
+    border-color: grey;
+}
+
+
+/* section to display user comments   */
+
+#commentHeader{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 53%;
+    height: auto;
+    background-color: #b9b3b3;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#newCommentHolder{
+/*    margin-top: 10px;*/
+    width: 53%;
+    height: auto;
+    background-color: #b9b3b3;
+    padding: 10px;
+}
+
+.newComment {
+    padding: 7px;
+    text-align: justify;
+    background-color: white;
+}
+
