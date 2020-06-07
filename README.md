@@ -2,6 +2,7 @@
 A simple blogging site with login system
 description:-simple blogging with admin control options
 	using= HTML, CSS, JS, php,bootstrap
+	Database file i.e. sql file not provided. mail if needed
 
 					IN THIS SITE
 
@@ -22,3 +23,5 @@ Also all the fields of login and registration page are required to filled with c
 This helps in controlling the redundancy of data in the database.
 
 This project can also be used to share literature work of writers like articles, poems, essays and many more with a wide range of audience all over the word.
+
+
